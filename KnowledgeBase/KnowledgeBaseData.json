@@ -1,0 +1,4854 @@
+{
+  "CVE_data_type" : "CVE",
+  "CVE_data_format" : "MITRE",
+  "CVE_data_version" : "4.0",
+  "CVE_data_numberOfCVEs" : "21474",
+  "CVE_data_timestamp" : "2024-09-12T07:00Z",
+  "CVE_Items" : [ 
+      {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0270",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249825",
+        "name" : "https://vuldb.com/?id.249825",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249825",
+        "name" : "https://vuldb.com/?ctiid.249825",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%201.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%201.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, was found in Kashipara Food Management System up to 1.0. This affects an unknown part of the file item_list_submit.php. The manipulation of the argument item_name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249825 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T08:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+},
+ {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0271",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249826",
+        "name" : "https://vuldb.com/?id.249826",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249826",
+        "name" : "https://vuldb.com/?ctiid.249826",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%206.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%206.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability has been found in Kashipara Food Management System up to 1.0 and classified as critical. This vulnerability affects unknown code of the file addmaterial_edit.php. The manipulation of the argument id leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-249826 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T09:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0272",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249827",
+        "name" : "https://vuldb.com/?id.249827",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249827",
+        "name" : "https://vuldb.com/?ctiid.249827",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%208.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%208.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0 and classified as critical. This issue affects some unknown processing of the file addmaterialsubmit.php. The manipulation of the argument material_name leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249827."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T11:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0273",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249828",
+        "name" : "https://vuldb.com/?id.249828",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249828",
+        "name" : "https://vuldb.com/?ctiid.249828",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%203.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%203.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0. It has been classified as critical. Affected is an unknown function of the file addwaste_entry.php. The manipulation of the argument item_name leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249828."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T11:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0274",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249829",
+        "name" : "https://vuldb.com/?id.249829",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249829",
+        "name" : "https://vuldb.com/?ctiid.249829",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%202.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%202.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file billAjax.php. The manipulation of the argument item_name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249829 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T12:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0275",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249830",
+        "name" : "https://vuldb.com/?id.249830",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249830",
+        "name" : "https://vuldb.com/?ctiid.249830",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%204.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%204.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file item_edit_submit.php. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-249830 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T12:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0276",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249831",
+        "name" : "https://vuldb.com/?id.249831",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249831",
+        "name" : "https://vuldb.com/?ctiid.249831",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%205.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%205.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical has been found in Kashipara Food Management System up to 1.0. This affects an unknown part of the file rawstock_used_damaged_smt.php. The manipulation of the argument product_name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249831."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T13:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0277",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249832",
+        "name" : "https://vuldb.com/?id.249832",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249832",
+        "name" : "https://vuldb.com/?ctiid.249832",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%209.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%209.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical was found in Kashipara Food Management System up to 1.0. This vulnerability affects unknown code of the file party_submit.php. The manipulation of the argument party_name leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249832."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T13:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0278",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249833",
+        "name" : "https://vuldb.com/?id.249833",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249833",
+        "name" : "https://vuldb.com/?ctiid.249833",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2010.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2010.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, has been found in Kashipara Food Management System up to 1.0. This issue affects some unknown processing of the file partylist_edit_submit.php. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249833 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T14:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0279",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249834",
+        "name" : "https://vuldb.com/?id.249834",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249834",
+        "name" : "https://vuldb.com/?ctiid.249834",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2011.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2011.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, was found in Kashipara Food Management System up to 1.0. Affected is an unknown function of the file item_list_edit.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249834 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T14:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0280",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249835",
+        "name" : "https://vuldb.com/?id.249835",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249835",
+        "name" : "https://vuldb.com/?ctiid.249835",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2012.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2012.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability has been found in Kashipara Food Management System up to 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file item_type_submit.php. The manipulation of the argument type_name leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249835."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T15:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0281",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249836",
+        "name" : "https://vuldb.com/?id.249836",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249836",
+        "name" : "https://vuldb.com/?ctiid.249836",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2013.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2013.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file loginCheck.php. The manipulation of the argument password leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249836."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-07T15:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0282",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249837",
+        "name" : "https://vuldb.com/?id.249837",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249837",
+        "name" : "https://vuldb.com/?ctiid.249837",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2014.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2014.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0. It has been classified as problematic. This affects an unknown part of the file addmaterialsubmit.php. The manipulation of the argument tin leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249837 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-07T16:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0283",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249838",
+        "name" : "https://vuldb.com/?id.249838",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249838",
+        "name" : "https://vuldb.com/?ctiid.249838",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2015.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2015.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0. It has been declared as problematic. This vulnerability affects unknown code of the file party_details.php. The manipulation of the argument party_name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-249838 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:wordpress:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-07T16:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0284",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249839",
+        "name" : "https://vuldb.com/?id.249839",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249839",
+        "name" : "https://vuldb.com/?ctiid.249839",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2016.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Food%20Management%20System/Food%20Management%20System%20-%20vuln%2016.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System up to 1.0. It has been rated as problematic. This issue affects some unknown processing of the file party_submit.php. The manipulation of the argument party_address leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249839."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-07T17:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0285",
+      "ASSIGNER" : "scy@openharmony.io"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "NVD-CWE-noinfo"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://gitee.com/openharmony/security/blob/master/zh/security-disclosure/2024/2024-02.md",
+        "name" : "https://gitee.com/openharmony/security/blob/master/zh/security-disclosure/2024/2024-02.md",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "\nin OpenHarmony v4.0.0 and prior versions allow a local attacker cause DOS through improper input."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:openatom:openharmony:4.0:*:*:*:-:*:*:*",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:openatom:openharmony:*:*:*:*:-:*:*:*",
+        "versionStartIncluding" : "3.2.0",
+        "versionEndIncluding" : "3.2.4",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "attackVector" : "LOCAL",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "NONE",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 5.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 1.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-02-02T07:15Z",
+  "lastModifiedDate" : "2024-09-09T12:21Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0286",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249843",
+        "name" : "https://vuldb.com/?id.249843",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249843",
+        "name" : "https://vuldb.com/?ctiid.249843",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://drive.google.com/file/d/1MkVtMe63h5TlZvcC_Hc1fn6dn-jwNR8l/view?usp=sharing",
+        "name" : "https://drive.google.com/file/d/1MkVtMe63h5TlZvcC_Hc1fn6dn-jwNR8l/view?usp=sharing",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as problematic, was found in PHPGurukul Hospital Management System 1.0. This affects an unknown part of the file index.php#contact_us of the component Contact Form. The manipulation of the argument Name/Email/Message leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249843."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:phpgurukul:hospital_management_system:1.0:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-07T18:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0287",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249848",
+        "name" : "https://vuldb.com/?id.249848",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249848",
+        "name" : "https://vuldb.com/?ctiid.249848",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability5.md",
+        "name" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability5.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Food Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file itemBillPdf.php. The manipulation of the argument printid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249848."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:1.0:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-07T23:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0288",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249849",
+        "name" : "https://vuldb.com/?id.249849",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249849",
+        "name" : "https://vuldb.com/?ctiid.249849",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability12.md",
+        "name" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability12.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical has been found in Kashipara Food Management System 1.0. This affects an unknown part of the file rawstock_used_damaged_submit.php. The manipulation of the argument product_name leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249849 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:1.0:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T00:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0289",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249850",
+        "name" : "https://vuldb.com/?id.249850",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249850",
+        "name" : "https://vuldb.com/?ctiid.249850",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability14.md",
+        "name" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability14.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Vendor Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical was found in Kashipara Food Management System 1.0. This vulnerability affects unknown code of the file stock_entry_submit.php. The manipulation of the argument itemype leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-249850 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:1.0:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T00:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0290",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249851",
+        "name" : "https://vuldb.com/?id.249851",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249851",
+        "name" : "https://vuldb.com/?ctiid.249851",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability15.md",
+        "name" : "https://github.com/laoquanshi/heishou/blob/main/Food%20Management%20System%20SQL%20Injection%20Vulnerability15.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, has been found in Kashipara Food Management System 1.0. This issue affects some unknown processing of the file stock_edit.php. The manipulation of the argument item_type leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249851."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:kashipara:food_management_system:1.0:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T01:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0291",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-77"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249857",
+        "name" : "https://vuldb.com/?id.249857",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249857",
+        "name" : "https://vuldb.com/?ctiid.249857",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/UploadFirmwareFile/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/UploadFirmwareFile/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has been rated as critical. This issue affects the function UploadFirmwareFile of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument FileName leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249857 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:lr1200gb_firmware:9.1.0u.6619_b20230130:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:lr1200gb:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 8.8,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T01:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0292",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249858",
+        "name" : "https://vuldb.com/?id.249858",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249858",
+        "name" : "https://vuldb.com/?ctiid.249858",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setOpModeCfg/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setOpModeCfg/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical has been found in Totolink LR1200GB 9.1.0u.6619_B20230130. Affected is the function setOpModeCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument hostName leads to os command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249858 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:lr1200gb_firmware:9.1.0u.6619_b20230130:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:lr1200gb:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T02:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0293",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249859",
+        "name" : "https://vuldb.com/?id.249859",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249859",
+        "name" : "https://vuldb.com/?ctiid.249859",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setUploadSetting/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setUploadSetting/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical was found in Totolink LR1200GB 9.1.0u.6619_B20230130. Affected by this vulnerability is the function setUploadSetting of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument FileName leads to os command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249859. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:lr1200gb_firmware:9.1.0u.6619_b20230130:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:lr1200gb:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T03:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0294",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249860",
+        "name" : "https://vuldb.com/?id.249860",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249860",
+        "name" : "https://vuldb.com/?ctiid.249860",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setUssd/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setUssd/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, has been found in Totolink LR1200GB 9.1.0u.6619_B20230130. Affected by this issue is the function setUssd of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ussd leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249860. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:lr1200gb_firmware:9.1.0u.6619_b20230130:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:lr1200gb:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T03:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0295",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249861",
+        "name" : "https://vuldb.com/?id.249861",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249861",
+        "name" : "https://vuldb.com/?ctiid.249861",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setWanCfg/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/LR1200GB/setWanCfg/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, was found in Totolink LR1200GB 9.1.0u.6619_B20230130. This affects the function setWanCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument hostName leads to os command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249861 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:lr1200gb_firmware:9.1.0u.6619_b20230130:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:lr1200gb:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T04:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0296",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249862",
+        "name" : "https://vuldb.com/?id.249862",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249862",
+        "name" : "https://vuldb.com/?ctiid.249862",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/NTPSyncWithHost/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/NTPSyncWithHost/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability has been found in Totolink N200RE 9.3.5u.6139_B20201216 and classified as critical. This vulnerability affects the function NTPSyncWithHost of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument host_time leads to os command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-249862 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:n200re_firmware:9.3.5u.6139_b20201216:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:n200re:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T04:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0297",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249863",
+        "name" : "https://vuldb.com/?id.249863",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249863",
+        "name" : "https://vuldb.com/?ctiid.249863",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/UploadFirmwareFile/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/UploadFirmwareFile/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216 and classified as critical. This issue affects the function UploadFirmwareFile of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument FileName leads to os command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249863. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:n200re_firmware:9.3.5u.6139_b20201216:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:n200re:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T05:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0298",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249864",
+        "name" : "https://vuldb.com/?id.249864",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249864",
+        "name" : "https://vuldb.com/?ctiid.249864",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/setDiagnosisCfg/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/setDiagnosisCfg/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216. It has been classified as critical. Affected is the function setDiagnosisCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ip leads to os command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249864. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:n200re_firmware:9.3.5u.6139_b20201216:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:n200re:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T05:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0299",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-78"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249865",
+        "name" : "https://vuldb.com/?id.249865",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249865",
+        "name" : "https://vuldb.com/?ctiid.249865",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/setTracerouteCfg/README.md",
+        "name" : "https://github.com/jylsec/vuldb/blob/main/TOTOLINK/N200RE/setTracerouteCfg/README.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Totolink N200RE 9.3.5u.6139_B20201216. It has been declared as critical. Affected by this vulnerability is the function setTracerouteCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument command leads to os command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249865 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:totolink:n200re_firmware:9.3.5u.6139_b20201216:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:totolink:n200re:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T06:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0300",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-434"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249866",
+        "name" : "https://vuldb.com/?id.249866",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249866",
+        "name" : "https://vuldb.com/?ctiid.249866",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory", "VDB Entry" ]
+      }, {
+        "url" : "https://github.com/tolkent/cve/blob/main/upload.md",
+        "name" : "https://github.com/tolkent/cve/blob/main/upload.md",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?submit.260962",
+        "name" : "Submit #260962 | Beijing Baizhuo Network Technology Co., LTD Smart S150 management platform S150 files upload",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Byzoro Smart S150 Management Platform up to 20240101. It has been rated as critical. Affected by this issue is some unknown functionality of the file /useratte/userattestation.php of the component HTTP POST Request Handler. The manipulation of the argument web_img leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-249866 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:byzoro:smart_s150_firmware:*:*:*:*:*:*:*:*",
+          "versionEndIncluding" : "2024-01-01",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:byzoro:smart_s150:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T06:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0301",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249868",
+        "name" : "https://vuldb.com/?id.249868",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249868",
+        "name" : "https://vuldb.com/?ctiid.249868",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/laoquanshi/heishou/blob/main/iparking-SQL.pdf",
+        "name" : "https://github.com/laoquanshi/heishou/blob/main/iparking-SQL.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical was found in fhs-opensource iparking 1.5.22.RELEASE. This vulnerability affects the function getData of the file src/main/java/com/xhb/pay/action/PayTempOrderAction.java. The manipulation leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249868."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fhs-opensource:iparking:1.5.22:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T07:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0302",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-502"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249869",
+        "name" : "https://vuldb.com/?id.249869",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249869",
+        "name" : "https://vuldb.com/?ctiid.249869",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/laoquanshi/heishou/blob/main/Iparking%20rce.pdf",
+        "name" : "https://github.com/laoquanshi/heishou/blob/main/Iparking%20rce.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, has been found in fhs-opensource iparking 1.5.22.RELEASE. This issue affects some unknown processing of the file /vueLogin. The manipulation leads to deserialization. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249869 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fhs-opensource:iparking:1.5.22:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T07:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0303",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-918"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249870",
+        "name" : "https://vuldb.com/?id.249870",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249870",
+        "name" : "https://vuldb.com/?ctiid.249870",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://note.zhaoj.in/share/fssH60eQkvSl",
+        "name" : "https://note.zhaoj.in/share/fssH60eQkvSl",
+        "refsource" : "",
+        "tags" : [ "Broken Link" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability, which was classified as critical, was found in Youke365 up to 1.5.3. Affected is an unknown function of the file /app/api/controller/caiji.php of the component Parameter Handler. The manipulation of the argument url leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249870 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:youke365:youke_365:*:*:*:*:*:*:*:*",
+        "versionStartIncluding" : "1.5.0",
+        "versionEndIncluding" : "1.5.3",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T08:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0304",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-918"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249871",
+        "name" : "https://vuldb.com/?id.249871",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249871",
+        "name" : "https://vuldb.com/?ctiid.249871",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://note.zhaoj.in/share/3jF3Xpl3ttlZ",
+        "name" : "https://note.zhaoj.in/share/3jF3Xpl3ttlZ",
+        "refsource" : "",
+        "tags" : [ "Broken Link" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability has been found in Youke365 up to 1.5.3 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /app/api/controller/collect.php. The manipulation of the argument url leads to server-side request forgery. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249871."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:youke365:youke_365:*:*:*:*:*:*:*:*",
+        "versionStartIncluding" : "1.5.0",
+        "versionEndIncluding" : "1.5.3",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T08:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0305",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "NVD-CWE-noinfo"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249872",
+        "name" : "https://vuldb.com/?id.249872",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249872",
+        "name" : "https://vuldb.com/?ctiid.249872",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/2267787739/cve/blob/main/logic.md",
+        "name" : "https://github.com/2267787739/cve/blob/main/logic.md",
+        "refsource" : "",
+        "tags" : [ "Exploit" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Guangzhou Yingke Electronic Technology Ncast up to 2017 and classified as problematic. Affected by this issue is some unknown functionality of the file /manage/IPSetup.php of the component Guest Login. The manipulation leads to information disclosure. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249872."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:ncast_project:ncast:*:*:*:*:*:*:*:*",
+        "versionStartIncluding" : "2007",
+        "versionEndIncluding" : "2017",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 7.5,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-08T09:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0306",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249873",
+        "name" : "https://vuldb.com/?id.249873",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249873",
+        "name" : "https://vuldb.com/?ctiid.249873",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/E1CHO/cve_hub/blob/main/Dynamic%20Lab%20Management%20System%20-%20vuln%201.pdf",
+        "name" : "https://github.com/E1CHO/cve_hub/blob/main/Dynamic%20Lab%20Management%20System%20-%20vuln%201.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Dynamic Lab Management System up to 1.0. It has been classified as critical. This affects an unknown part of the file /admin/admin_login_process.php. The manipulation of the argument admin_password leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249873 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:lopalopa:dynamic_lab_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 7.5,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-08T09:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0307",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249874",
+        "name" : "https://vuldb.com/?id.249874",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249874",
+        "name" : "https://vuldb.com/?ctiid.249874",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/VistaAX/vulnerablility/blob/main/Dynamic%20Lab%20Management%20System%20-%20vuln%202.pdf",
+        "name" : "https://github.com/VistaAX/vulnerablility/blob/main/Dynamic%20Lab%20Management%20System%20-%20vuln%202.pdf",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Kashipara Dynamic Lab Management System up to 1.0. It has been declared as critical. This vulnerability affects unknown code of the file login_process.php. The manipulation of the argument password leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-249874 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:lopalopa:dynamic_lab_management_system:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "1.0",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 7.5,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-08T10:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0308",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-918"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.249875",
+        "name" : "https://vuldb.com/?id.249875",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.249875",
+        "name" : "https://vuldb.com/?ctiid.249875",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://note.zhaoj.in/share/2E2JG2PClHGF",
+        "name" : "https://note.zhaoj.in/share/2E2JG2PClHGF",
+        "refsource" : "",
+        "tags" : [ "Broken Link" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Inis up to 2.0.1. It has been rated as critical. This issue affects some unknown processing of the file app/api/controller/default/Proxy.php. The manipulation of the argument p_url leads to server-side request forgery. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249875."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:inis_project:inis:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "2.0.1",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 8.8,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T10:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0310",
+      "ASSIGNER" : "trellixpsirt@trellix.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10417",
+        "name" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10417",
+        "refsource" : "",
+        "tags" : [ "Vendor Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "\nA content-security-policy vulnerability in ENS Control browser extension prior to 10.7.0 Update 15 allows a remote attacker to alter the response header parameter setting to switch the content security policy into report-only mode, allowing an attacker to bypass the content-security-policy configuration. \n\n"
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:a:trellix:endpoint_security_web_control:*:*:*:*:*:*:*:*",
+          "versionEndExcluding" : "10.7.0",
+          "cpe_name" : [ ]
+        }, {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:a:trellix:endpoint_security_web_control:10.7.0:-:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:o:microsoft:windows:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-10T11:15Z",
+  "lastModifiedDate" : "2024-01-17T20:33Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0311",
+      "ASSIGNER" : "trellixpsirt@trellix.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-622"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10418",
+        "name" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10418",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A malicious insider can bypass the existing policy of Skyhigh Client Proxy without a valid release code."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-03-14T09:15Z",
+  "lastModifiedDate" : "2024-03-14T12:52Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0312",
+      "ASSIGNER" : "trellixpsirt@trellix.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-622"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10418",
+        "name" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10418",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A malicious insider can uninstall Skyhigh Client Proxy without a valid uninstall password."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-03-14T09:15Z",
+  "lastModifiedDate" : "2024-03-14T12:52Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0313",
+      "ASSIGNER" : "trellixpsirt@trellix.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-670"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10418",
+        "name" : "https://kcm.trellix.com/corporate/index?page=content&id=SB10418",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A malicious insider exploiting this vulnerability can circumvent existing security controls put in place by the organization. On the contrary, if the victim is legitimately using the temporary bypass to reach out to the Internet for retrieving application and system updates, a remote device could target it and undo the bypass, thereby denying the victim access to the update service, causing it to fail. "
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-03-14T09:15Z",
+  "lastModifiedDate" : "2024-03-14T12:52Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0314",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "XSS vulnerability in FireEye Central Management affecting version 9.1.1.956704, which could allow an attacker to modify special HTML elements in the application and cause a reflected XSS, leading to a session hijacking."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fireeye:central_management:9.1.1.956704:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-15T16:15Z",
+  "lastModifiedDate" : "2024-01-19T18:49Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0315",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-98"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Vendor Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Remote file inclusion vulnerability in FireEye Central Management affecting version 9.1.1.956704. This vulnerability allows an attacker to upload a malicious PDF file to the system during the report creation process."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fireeye:central_management:9.1.1.956704:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "LOCAL",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 7.8,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 1.8,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-15T16:15Z",
+  "lastModifiedDate" : "2024-01-19T18:16Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0316",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-460"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Improper cleanup vulnerability in exceptions thrown in FireEye Endpoint Security, affecting version 5.2.0.958244. This vulnerability could allow an attacker to send multiple request packets to the containment_notify/preview parameter, which could lead to a service outage."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fireeye:endpoint_security:5.2.0.958244:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "NONE",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 7.5,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-15T16:15Z",
+  "lastModifiedDate" : "2024-01-19T18:16Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0317",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Cross-Site Scripting in FireEye EX, affecting version 9.0.3.936727. Exploitation of this vulnerability allows an attacker to send a specially crafted JavaScript payload via the 'type' and 's_f_name' parameters to an authenticated user to retrieve their session details."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:fireeye:ex_5500_firmwarea:9.0.3.936727:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:fireeye:ex_5500:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    }, {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:fireeye:ex_8500_firmware:9.0.3.936727:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:fireeye:ex_8500:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    }, {
+      "operator" : "AND",
+      "children" : [ {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : true,
+          "cpe23Uri" : "cpe:2.3:o:fireeye:ex_3500_firmware:9.0.3.936727:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      }, {
+        "operator" : "OR",
+        "children" : [ ],
+        "cpe_match" : [ {
+          "vulnerable" : false,
+          "cpe23Uri" : "cpe:2.3:h:fireeye:ex_3500:-:*:*:*:*:*:*:*",
+          "cpe_name" : [ ]
+        } ]
+      } ],
+      "cpe_match" : [ ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-15T17:15Z",
+  "lastModifiedDate" : "2024-01-30T23:04Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0318",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Cross-Site Scripting in FireEye HXTool affecting version 4.6. This vulnerability allows an attacker to store a specially crafted JavaScript payload in the 'Profile Name' and 'Hostname/IP' parameters that will be triggered when items are loaded."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fireeye:hxtool:4.6:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-15T17:15Z",
+  "lastModifiedDate" : "2024-01-19T16:13Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0319",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-601"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Open Redirect vulnerability in FireEye HXTool affecting version 4.6, the exploitation of which could allow an attacker to redirect a legitimate user to a malicious page by changing the 'redirect_uri' parameter."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fireeye:hxtool:4.6:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-15T17:15Z",
+  "lastModifiedDate" : "2024-01-19T19:28Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0320",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-79"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-fireeye-products",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Cross-Site Scripting in FireEye Malware Analysis (AX) affecting version 9.0.3.936530. This vulnerability allows an attacker to send a specially crafted JavaScript payload in the application URL to retrieve the session details of a legitimate user."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:fireeye:malware_analysis:9.0.3.936530:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.1,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 2.8,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-01-15T17:15Z",
+  "lastModifiedDate" : "2024-01-19T18:15Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0321",
+      "ASSIGNER" : "security@huntr.dev"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-787"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://huntr.com/bounties/4c027b94-8e9c-4c31-a169-893b25047769",
+        "name" : "https://huntr.com/bounties/4c027b94-8e9c-4c31-a169-893b25047769",
+        "refsource" : "",
+        "tags" : [ "Exploit", "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/gpac/gpac/commit/d0ced41651b279bb054eb6390751e2d4eb84819a",
+        "name" : "https://github.com/gpac/gpac/commit/d0ced41651b279bb054eb6390751e2d4eb84819a",
+        "refsource" : "",
+        "tags" : [ "Patch" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Stack-based Buffer Overflow in GitHub repository gpac/gpac prior to 2.3-DEV."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:gpac:gpac:*:*:*:*:*:*:*:*",
+        "versionEndExcluding" : "2.3.0-dev",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-08T13:15Z",
+  "lastModifiedDate" : "2024-01-11T20:50Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0322",
+      "ASSIGNER" : "security@huntr.dev"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-125"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://huntr.com/bounties/87611fc9-ed7c-43e9-8e52-d83cd270bbec",
+        "name" : "https://huntr.com/bounties/87611fc9-ed7c-43e9-8e52-d83cd270bbec",
+        "refsource" : "",
+        "tags" : [ "Exploit" ]
+      }, {
+        "url" : "https://github.com/gpac/gpac/commit/092904b80edbc4dce315684a59cc3184c45c1b70",
+        "name" : "https://github.com/gpac/gpac/commit/092904b80edbc4dce315684a59cc3184c45c1b70",
+        "refsource" : "",
+        "tags" : [ "Patch" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Out-of-bounds Read in GitHub repository gpac/gpac prior to 2.3-DEV."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:gpac:gpac:*:*:*:*:*:*:*:*",
+        "versionEndExcluding" : "2.3.0",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:gpac:gpac:2.3.0:dev:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.1,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.2
+    }
+  },
+  "publishedDate" : "2024-01-08T13:15Z",
+  "lastModifiedDate" : "2024-01-11T17:36Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0323",
+      "ASSIGNER" : "cybersecurity@ch.abb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-1240"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.br-automation.com/fileadmin/SA23P004_FTP_uses_unsecure_encryption_mechanisms-f57c147c.pdf",
+        "name" : "https://www.br-automation.com/fileadmin/SA23P004_FTP_uses_unsecure_encryption_mechanisms-f57c147c.pdf",
+        "refsource" : "",
+        "tags" : [ "Vendor Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "The FTP server used on the B&R\nAutomation Runtime supports unsecure encryption mechanisms, such as SSLv3,\nTLSv1.0 and TLS1.1. An network-based attacker can exploit the flaws to conduct\nman-in-the-middle attacks or to decrypt communications between the affected product\nclients."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:br-automation:automation_runtime:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "i4.93",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-02-05T16:15Z",
+  "lastModifiedDate" : "2024-09-06T08:15Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0324",
+      "ASSIGNER" : "cve-request@wordfence.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-862"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.wordfence.com/threat-intel/vulnerabilities/id/23caef95-36b6-40aa-8dd7-51a376790a40?source=cve",
+        "name" : "https://www.wordfence.com/threat-intel/vulnerabilities/id/23caef95-36b6-40aa-8dd7-51a376790a40?source=cve",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://github.com/WordpressPluginDirectory/profile-builder/blob/main/profile-builder/admin/admin-functions.php#L517",
+        "name" : "https://github.com/WordpressPluginDirectory/profile-builder/blob/main/profile-builder/admin/admin-functions.php#L517",
+        "refsource" : "",
+        "tags" : [ "Product" ]
+      }, {
+        "url" : "https://plugins.trac.wordpress.org/changeset/3022354/",
+        "name" : "https://plugins.trac.wordpress.org/changeset/3022354/",
+        "refsource" : "",
+        "tags" : [ "Patch" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "The User Profile Builder – Beautiful User Registration Forms, User Profiles & User Role Editor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'wppb_two_factor_authentication_settings_update' function in all versions up to, and including, 3.10.8. This makes it possible for unauthenticated attackers to enable or disable the 2FA functionality present in the Premium version of the plugin for arbitrary user roles."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:cozmoslabs:profile_builder:*:*:*:*:*:wordpress:*:*",
+        "versionEndIncluding" : "3.10.8",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "NONE",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 7.5,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-02-05T22:15Z",
+  "lastModifiedDate" : "2024-02-13T18:53Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0325",
+      "ASSIGNER" : "security@perforce.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-77"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://perforce.com",
+        "name" : "https://perforce.com",
+        "refsource" : "",
+        "tags" : [ "Product" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "In Helix Sync versions prior to 2024.1, a local command injection was identified.  Reported by Bryan Riggins.  \n"
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:perforce:helix_sync:*:*:*:*:*:*:*:*",
+        "versionEndExcluding" : "2024.1",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "LOCAL",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 7.8,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 1.8,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-02-01T22:15Z",
+  "lastModifiedDate" : "2024-02-09T19:48Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0326",
+      "ASSIGNER" : "cve-request@wordfence.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.wordfence.com/threat-intel/vulnerabilities/id/22ba0eaf-f514-420a-9680-8126f6dcdde9?source=cve",
+        "name" : "https://www.wordfence.com/threat-intel/vulnerabilities/id/22ba0eaf-f514-420a-9680-8126f6dcdde9?source=cve",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://plugins.trac.wordpress.org/browser/premium-addons-for-elementor/trunk/modules/premium-wrapper-link/module.php#L173",
+        "name" : "https://plugins.trac.wordpress.org/browser/premium-addons-for-elementor/trunk/modules/premium-wrapper-link/module.php#L173",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://plugins.trac.wordpress.org/browser/premium-addons-for-elementor/trunk/includes/class-premium-template-tags.php#L1638",
+        "name" : "https://plugins.trac.wordpress.org/browser/premium-addons-for-elementor/trunk/includes/class-premium-template-tags.php#L1638",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://plugins.trac.wordpress.org/browser/premium-addons-for-elementor/trunk/widgets/premium-button.php#L1709",
+        "name" : "https://plugins.trac.wordpress.org/browser/premium-addons-for-elementor/trunk/widgets/premium-button.php#L1709",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://plugins.trac.wordpress.org/changeset/3022824/premium-addons-for-elementor/trunk/modules/premium-wrapper-link/module.php",
+        "name" : "https://plugins.trac.wordpress.org/changeset/3022824/premium-addons-for-elementor/trunk/modules/premium-wrapper-link/module.php",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "The Premium Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's Link Wrapper functionality in all versions up to, and including, 4.10.17 due to insufficient input sanitization and output escaping on user supplied links. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-03-13T16:15Z",
+  "lastModifiedDate" : "2024-03-13T18:16Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0333",
+      "ASSIGNER" : "chrome-cve-admin@google.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "NVD-CWE-noinfo"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://chromereleases.googleblog.com/2024/01/stable-channel-update-for-desktop_9.html",
+        "name" : "https://chromereleases.googleblog.com/2024/01/stable-channel-update-for-desktop_9.html",
+        "refsource" : "",
+        "tags" : [ "Release Notes" ]
+      }, {
+        "url" : "https://crbug.com/1513379",
+        "name" : "https://crbug.com/1513379",
+        "refsource" : "",
+        "tags" : [ "Permissions Required" ]
+      }, {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IPYCYENYQYADCOS6XG4JITUVRZ6HTE2B/",
+        "name" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IPYCYENYQYADCOS6XG4JITUVRZ6HTE2B/",
+        "refsource" : "",
+        "tags" : [ "Mailing List", "Third Party Advisory" ]
+      }, {
+        "url" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BXC7FJIAZRY3P72XC4Z4UOW2QDA7YX7/",
+        "name" : "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BXC7FJIAZRY3P72XC4Z4UOW2QDA7YX7/",
+        "refsource" : "",
+        "tags" : [ "Mailing List", "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Insufficient data validation in Extensions in Google Chrome prior to 120.0.6099.216 allowed an attacker in a privileged network position to install a malicious extension via a crafted HTML page. (Chromium security severity: High)"
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+        "versionEndExcluding" : "120.0.6099.216",
+        "cpe_name" : [ ]
+      } ]
+    }, {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:fedoraproject:fedora:38:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:fedoraproject:fedora:39:*:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "HIGH",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "REQUIRED",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "NONE",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 5.3,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 1.6,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-10T22:15Z",
+  "lastModifiedDate" : "2024-01-18T19:39Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0334",
+      "ASSIGNER" : "cve-request@wordfence.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.wordfence.com/threat-intel/vulnerabilities/id/950e9042-1364-4200-8f57-171346075764?source=cve",
+        "name" : "https://www.wordfence.com/threat-intel/vulnerabilities/id/950e9042-1364-4200-8f57-171346075764?source=cve",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://plugins.trac.wordpress.org/changeset/3077328/jeg-elementor-kit",
+        "name" : "https://plugins.trac.wordpress.org/changeset/3077328/jeg-elementor-kit",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "The Jeg Elementor Kit plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the custom attribute of a link in several Elementor widgets in all versions up to, and including, 2.6.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "CHANGED",
+        "confidentialityImpact" : "LOW",
+        "integrityImpact" : "LOW",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 6.4,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 3.1,
+      "impactScore" : 2.7
+    }
+  },
+  "publishedDate" : "2024-05-01T13:15Z",
+  "lastModifiedDate" : "2024-05-01T19:50Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0335",
+      "ASSIGNER" : "cybersecurity@ch.abb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-20"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://search.abb.com/library/Download.aspx?DocumentID=7PAA002536&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "name" : "https://search.abb.com/library/Download.aspx?DocumentID=7PAA002536&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "\nABB has internally identified a vulnerability in the ABB VPNI feature of the S+ Control API component which may \nbe used by several Symphony Plus products (e.g., S+ Operations, S+ Engineering and S+ Analyst)\n\nThis issue affects Symphony Plus S+ Operations: from 3..0;0 through 3.3 SP1 RU4, from 2.1;0 through 2.1 SP2 RU3, from 2.0;0 through 2.0 SP6 TC6; Symphony Plus S+ Engineering: from 2.1 through 2.3 RU3; Symphony Plus S+ Analyst: from 7.0.0.0 through 7.2.0.2.\n\n"
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-04-03T19:15Z",
+  "lastModifiedDate" : "2024-04-04T12:48Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0336",
+      "ASSIGNER" : "cve@usom.gov.tr"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-284"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.usom.gov.tr/bildirim/tr-24-0600",
+        "name" : "https://www.usom.gov.tr/bildirim/tr-24-0600",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "Improper Access Control vulnerability in EMTA Grup PDKS allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects PDKS: before 20240603. \n\nNOTE: The vendor was contacted early about this disclosure but did not respond in any way."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-06-03T14:15Z",
+  "lastModifiedDate" : "2024-06-03T14:46Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0337",
+      "ASSIGNER" : "contact@wpscan.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://wpscan.com/vulnerability/2f17a274-8676-4f4e-989f-436030527890/",
+        "name" : "https://wpscan.com/vulnerability/2f17a274-8676-4f4e-989f-436030527890/",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "The Travelpayouts: All Travel Brands in One Place WordPress plugin through 1.1.15 is vulnerable to Open Redirect due to insufficient validation on the travelpayouts_redirect variable. This makes it possible for unauthenticated attackers to redirect users to potentially malicious sites if they can successfully trick them into performing an action."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ ]
+  },
+  "impact" : { },
+  "publishedDate" : "2024-03-20T05:15Z",
+  "lastModifiedDate" : "2024-08-01T19:35Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0338",
+      "ASSIGNER" : "cve-coordination@incibe.es"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-120"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://www.incibe.es/en/incibe-cert/notices/aviso/buffer-overflow-vulnerability-xampp",
+        "name" : "https://www.incibe.es/en/incibe-cert/notices/aviso/buffer-overflow-vulnerability-xampp",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A buffer overflow vulnerability has been found in XAMPP affecting version 8.2.4 and earlier. An attacker could execute arbitrary code through a long file debug argument that controls the Structured Exception Handler (SEH)."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:apachefriends:xampp:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "8.2.4",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-02-02T10:15Z",
+  "lastModifiedDate" : "2024-02-09T19:28Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0340",
+      "ASSIGNER" : "secalert@redhat.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "NVD-CWE-noinfo"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://access.redhat.com/security/cve/CVE-2024-0340",
+        "name" : "https://access.redhat.com/security/cve/CVE-2024-0340",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://bugzilla.redhat.com/show_bug.cgi?id=2257406",
+        "name" : "RHBZ#2257406",
+        "refsource" : "",
+        "tags" : [ "Issue Tracking", "Patch", "Third Party Advisory" ]
+      }, {
+        "url" : "https://lore.kernel.org/lkml/5kn47peabxjrptkqa6dwtyus35ahf4pcj4qm4pumse33kxqpjw@mec4se5relrc/T/",
+        "name" : "https://lore.kernel.org/lkml/5kn47peabxjrptkqa6dwtyus35ahf4pcj4qm4pumse33kxqpjw@mec4se5relrc/T/",
+        "refsource" : "",
+        "tags" : [ "Mailing List", "Patch" ]
+      }, {
+        "url" : "https://access.redhat.com/errata/RHSA-2024:3618",
+        "name" : "RHSA-2024:3618",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://access.redhat.com/errata/RHSA-2024:3627",
+        "name" : "RHSA-2024:3627",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html",
+        "name" : "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html",
+        "refsource" : "",
+        "tags" : [ ]
+      }, {
+        "url" : "https://lists.debian.org/debian-lts-announce/2024/06/msg00020.html",
+        "name" : "https://lists.debian.org/debian-lts-announce/2024/06/msg00020.html",
+        "refsource" : "",
+        "tags" : [ ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in vhost_new_msg in drivers/vhost/vhost.c in the Linux kernel, which does not properly initialize memory in messages passed between virtual guests and the host operating system in the vhost/vhost.c:vhost_new_msg() function. This issue can allow local privileged users to read some kernel memory contents when reading from the /dev/vhost-net device file."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
+        "versionEndExcluding" : "6.4",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:linux:linux_kernel:6.4:rc1:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:linux:linux_kernel:6.4:rc4:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:linux:linux_kernel:6.4:rc5:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:linux:linux_kernel:6.4:rc2:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      }, {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:o:linux:linux_kernel:6.4:rc3:*:*:*:*:*:*",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "LOCAL",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "LOW",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 5.5,
+        "baseSeverity" : "MEDIUM"
+      },
+      "exploitabilityScore" : 1.8,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-09T18:15Z",
+  "lastModifiedDate" : "2024-06-27T13:15Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0341",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-22"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.250109",
+        "name" : "https://vuldb.com/?id.250109",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.250109",
+        "name" : "https://vuldb.com/?ctiid.250109",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://note.zhaoj.in/share/VYx8H9u8gyHw",
+        "name" : "https://note.zhaoj.in/share/VYx8H9u8gyHw",
+        "refsource" : "",
+        "tags" : [ "Broken Link" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability was found in Inis up to 2.0.1. It has been rated as problematic. This issue affects some unknown processing of the file /app/api/controller/default/File.php of the component GET Request Handler. The manipulation of the argument path leads to path traversal: '../filedir'. The exploit has been disclosed to the public and may be used. The identifier VDB-250109 was assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:inis_project:inis:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "2.0.1",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "NONE",
+        "baseScore" : 7.5,
+        "baseSeverity" : "HIGH"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 3.6
+    }
+  },
+  "publishedDate" : "2024-01-09T19:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}, {
+  "cve" : {
+    "data_type" : "CVE",
+    "data_format" : "MITRE",
+    "data_version" : "4.0",
+    "CVE_data_meta" : {
+      "ID" : "CVE-2024-0342",
+      "ASSIGNER" : "cna@vuldb.com"
+    },
+    "problemtype" : {
+      "problemtype_data" : [ {
+        "description" : [ {
+          "lang" : "en",
+          "value" : "CWE-89"
+        } ]
+      } ]
+    },
+    "references" : {
+      "reference_data" : [ {
+        "url" : "https://vuldb.com/?id.250110",
+        "name" : "https://vuldb.com/?id.250110",
+        "refsource" : "",
+        "tags" : [ "Third Party Advisory" ]
+      }, {
+        "url" : "https://vuldb.com/?ctiid.250110",
+        "name" : "https://vuldb.com/?ctiid.250110",
+        "refsource" : "",
+        "tags" : [ "Permissions Required", "Third Party Advisory" ]
+      }, {
+        "url" : "https://note.zhaoj.in/share/nWYJHrmUqv7i",
+        "name" : "https://note.zhaoj.in/share/nWYJHrmUqv7i",
+        "refsource" : "",
+        "tags" : [ "Broken Link" ]
+      } ]
+    },
+    "description" : {
+      "description_data" : [ {
+        "lang" : "en",
+        "value" : "A vulnerability classified as critical has been found in Inis up to 2.0.1. Affected is an unknown function of the file /app/api/controller/default/Sqlite.php. The manipulation of the argument sql leads to sql injection. The exploit has been disclosed to the public and may be used. VDB-250110 is the identifier assigned to this vulnerability."
+      } ]
+    }
+  },
+  "configurations" : {
+    "CVE_data_version" : "4.0",
+    "nodes" : [ {
+      "operator" : "OR",
+      "children" : [ ],
+      "cpe_match" : [ {
+        "vulnerable" : true,
+        "cpe23Uri" : "cpe:2.3:a:inis_project:inis:*:*:*:*:*:*:*:*",
+        "versionEndIncluding" : "2.0.1",
+        "cpe_name" : [ ]
+      } ]
+    } ]
+  },
+  "impact" : {
+    "baseMetricV3" : {
+      "cvssV3" : {
+        "version" : "3.1",
+        "vectorString" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "HIGH",
+        "integrityImpact" : "HIGH",
+        "availabilityImpact" : "HIGH",
+        "baseScore" : 9.8,
+        "baseSeverity" : "CRITICAL"
+      },
+      "exploitabilityScore" : 3.9,
+      "impactScore" : 5.9
+    }
+  },
+  "publishedDate" : "2024-01-09T20:15Z",
+  "lastModifiedDate" : "2024-05-17T02:34Z"
+}]}

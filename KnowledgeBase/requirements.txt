@@ -1,0 +1,6 @@
+transformers
+torch
+psycopg2-binary
+numpy
+sqlalchemy
+pgvector

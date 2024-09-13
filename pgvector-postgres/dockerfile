@@ -1,0 +1,19 @@
+# Dockerfile for PostgreSQL with pgvector
+FROM postgres:16
+
+# Install dependencies for building pgvector
+RUN apt-get update && \
+    apt-get install -y postgresql-server-dev-all git make gcc && \
+    git clone https://github.com/pgvector/pgvector.git && \
+    cd pgvector && \
+    make && make install && \
+    rm -rf /pgvector && \
+    apt-get remove -y git make gcc && \
+    apt-get autoremove -y && \
+    apt-get clean
+
+# Create the pgvector extension in PostgreSQL
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Set the default command to run PostgreSQL
+CMD ["postgres"]
